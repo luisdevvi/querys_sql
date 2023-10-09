@@ -1,0 +1,20 @@
+SELECT 
+Codigo as CODIGO,
+Nome as NOME,
+Fantasia as FANTASIA,
+Contato as CONTATO,
+CNPJ as CNPJ_CNPF,
+Inscricao as IE_RG,
+Endereco as ENDERECO,
+Numero as NUMERO,
+Complemento as COMPLEMENTO,
+Bairro as BAIRRO,
+Cidade as CIDADE,
+UF as UF,
+CEP as CEP,
+Fone1 as TELEFONE,
+Fone2 as CELULAR,
+Email as EMAIL,
+NULL as CADASTRO,
+Obs as "OBSERVAÇÃO"
+FROM Cli_For cf 

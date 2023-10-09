@@ -1,0 +1,26 @@
+select
+e.codigo as ID,
+null as BARRAS,
+e.descricao, --DESCRICAO
+e.medida as UND,
+null as GRUPO,
+e.fornecedor as FORNECEDOR,
+'0' as QTD,
+'0' as QTD_SALDO,
+e.customedio as CUSTO_MEDIO,
+e.custocompr as PRECO_CUSTO,
+e.preco as PRECO_VENDA,
+null as CST,
+null as CSOSN,
+null as COD_NCM,
+null as CEST,
+null as TIPO_PRODUTO,
+null as ALIQ_ICMS,
+e.obs as OBS,
+e.referencia as REFERENCIA,
+null as PESOLIQUIDO,
+null as PESOBRUTO,
+null as VOLUME,
+e.codigo as CODIGO,
+null as "ORIGEM CST"
+from estoque E

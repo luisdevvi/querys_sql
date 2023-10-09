@@ -1,0 +1,115 @@
+/////TB_PROD_GRUPO
+
+--PGRU_EMPRESA
+--PGRU_ID
+--PGRU_DESCRICAO
+--PGRU_EXIBIR_TOUCH
+--PGRU_ORDEM_TOUCH
+--PGRU_IMAGEM
+--PGRU_IFOOD
+--PGRU_ID_IFOOD
+
+/////Produtos
+
+--ID	
+--BARRAS	
+--DESCRICAO	
+--UND	
+--GRUPO	
+--FORNECEDOR	
+--QTD	
+--QTD_SALDO	
+--CUSTO_MEDIO	
+--PRECO_CUSTO	
+--PRECO_VENDA	
+--CST	
+--CSOSN	
+--COD_NCM	
+--CEST	
+--TIPO_PRODUTO	
+--ALIQ_ICMS	
+--OBS	
+--REFERENCIA	
+--PESOLIQUIDO	
+--PESOBRUTO	
+--VOLUME	
+--CODIGO	
+--ORIGEM CST																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			
+
+/////Clientes
+
+--CODIGO	
+--NOME	
+--FANTASIA	
+--CONTATO	
+--CNPJ_CNPF	
+--IE_RG	
+--ENDERECO	
+--NUMERO	
+--COMPLEMENTO	
+--BAIRRO	
+--CIDADE	
+--UF	
+--CEP	
+--TELEFONE	
+--CELULAR	
+--EMAIL	
+--CADASTRO	
+--"OBSERVAÇÃO"
+
+/////Fornecedores
+
+--CODIGO
+--NOME
+--FANTASIA
+--CONTATO
+--CNPJ_CNPF
+--IE_RG
+--ENDERECO
+--NUMERO
+--COMPLEMENTO
+--BAIRRO
+--CIDADE
+--UF
+--CEP
+--TELEFONE
+--FAX
+--EMAIL
+
+/////Contas à receber
+
+--CODIGO
+--TIPO
+--STATUS
+--"CLIENTE (CODIGO ou CPF/CNPJ)"
+--"DATA EMISSAO"
+--"DATA VENCIMENTO"
+--"NUMERO DOCUMENTO"
+--VALOR
+--"VALOR DESCONTO"
+--"VALOR ACRESCIMO"
+--"OBSERVAÇÃO"
+--"JUROS (%)"
+--"VALOR JUROS"
+--"MULTA (%)"
+--"VALOR MULTA"
+--"VALOR PAGO"
+--PARCELA
+--"NRO PARCELA"
+
+/////Contas à pagar
+
+--CODIGO
+--TIPO
+--STATUS
+--"FORNECEDOR (CODIGO ou CPF/CNPJ)"
+--"DATA EMISSAO"
+--"DATA VENCIMENTO"
+--"NUMERO DOCUMENTO"
+--"VALOR"
+--"VALOR DESCONTO"
+--"VALOR ACRESCIMO"
+--"OBSERVAÇÃO"
+--"VALOR PAGO"
+--PARCELA
+--"NRO PARCELA"
